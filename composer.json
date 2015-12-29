@@ -1,0 +1,16 @@
+{
+  "name": "nishimura/monad-fizzbuzz",
+  "description": "Monad Sample Program",
+  "keywords": ["monad"],
+  "homepage": "https://github.com/nishimura/monad-fizzbuzz",
+  "license": "MIT",
+  "authors": [{
+    "name": "Satoshi Nishimura",
+    "email": "nishim314@gmail.com"
+  }],
+
+  "require": {
+      "php": ">=5.6.0",
+      "laiz/laiz-monad": "0.1.0"
+  }
+}
