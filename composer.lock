@@ -4,24 +4,24 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "027cff8cb96b53bccca35c9372c351ad",
+    "hash": "f27f82eaa098477be35dfea42f278bf8",
     "packages": [
         {
             "name": "laiz/laiz-monad",
-            "version": "v0.1.0",
+            "version": "v0.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nishimura/laiz-monad.git",
-                "reference": "de0328f452e8ec9e2faa674bbab6e1e3495a1702"
+                "reference": "8c77d4da85658891e3b32f4a61a55bf3560b2fa3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nishimura/laiz-monad/zipball/de0328f452e8ec9e2faa674bbab6e1e3495a1702",
-                "reference": "de0328f452e8ec9e2faa674bbab6e1e3495a1702",
+                "url": "https://api.github.com/repos/nishimura/laiz-monad/zipball/8c77d4da85658891e3b32f4a61a55bf3560b2fa3",
+                "reference": "8c77d4da85658891e3b32f4a61a55bf3560b2fa3",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.4.0"
+                "php": ">=5.6.0"
             },
             "require-dev": {
                 "phpunit/phpunit": "4.7.7"
@@ -29,9 +29,11 @@
             "type": "library",
             "autoload": {
                 "psr-0": {
-                    "Laiz\\Monad": "src/",
                     "Laiz\\Func": "src/"
-                }
+                },
+                "files": [
+                    "src/Laiz/Func/functions.php"
+                ]
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -48,7 +50,7 @@
             "keywords": [
                 "monad"
             ],
-            "time": "2015-12-29 09:06:51"
+            "time": "2016-01-09 05:57:42"
         }
     ],
     "packages-dev": [],
